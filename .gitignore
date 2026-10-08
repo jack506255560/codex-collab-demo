@@ -3,3 +3,8 @@
 .env.*
 !.env.example
 *.log
+
+.collab-data/
+.collab-runner/
+accounts.json
+*.accounts.json
