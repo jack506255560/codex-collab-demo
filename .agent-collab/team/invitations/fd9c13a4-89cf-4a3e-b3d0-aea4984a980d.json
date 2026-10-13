@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "invite_id": "fd9c13a4-89cf-4a3e-b3d0-aea4984a980d",
+  "agent_id": "Bob",
+  "capabilities": [
+    "full-stack"
+  ],
+  "bot_id": "aibjge5iH2PMNJh8NL7isjUBdI3j32AbSWZ",
+  "chat_ids": [
+    "wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA"
+  ],
+  "commands_enabled": true,
+  "prefer": true,
+  "claim_public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAxnZ+gSaaL/l8VEHYSe3ZDSvlLoz5dNNv0EiTVv40Owk=\n-----END PUBLIC KEY-----\n",
+  "expires_at": "2026-10-20T08:07:16.963Z",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "actor_id": "Alice",
+  "signature": "fRTm757wP1w0d6b+4+3nwlgMKYAIsKs3QJzygcfi+ZJghQzHFMjwJwebYf4TZ361vG6JAA69vA8anLtC/8OTBg=="
+}
