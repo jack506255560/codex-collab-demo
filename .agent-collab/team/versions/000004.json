@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "version": 4,
+  "parent_hash": "5f69bfcc807e32c04ee93bf21dd45fee8e13a89ea403ea8f6fd2376672952581",
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "team": {
+    "schema_version": 3,
+    "repo": "git@github.com:jack506255560/codex-collab-demo.git",
+    "reviewer": "Alice",
+    "default_route": "full-stack",
+    "agents": {
+      "Alice": {
+        "role": "admin",
+        "capabilities": [
+          "full-stack",
+          "alice-stage",
+          "bob-stage"
+        ],
+        "max_concurrent_tasks": 1,
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARSe4xDe4hpE0Yr72F87aREidcQ02S/0NBZNnCwaO214=\n-----END PUBLIC KEY-----\n",
+        "wecom_userid": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q"
+      },
+      "Bob": {
+        "role": "member",
+        "capabilities": [
+          "full-stack",
+          "alice-stage",
+          "bob-stage"
+        ],
+        "max_concurrent_tasks": 1,
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAJiFZS0zpt7E86JzFrAKDgkT5t6SlpwsEvwK09gj1e7Q=\n-----END PUBLIC KEY-----\n",
+        "wecom_userid": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q"
+      }
+    },
+    "routes": {
+      "full-stack": [
+        "Bob",
+        "Alice"
+      ],
+      "alice-stage": [
+        "Alice",
+        "Bob"
+      ],
+      "bob-stage": [
+        "Bob",
+        "Alice"
+      ]
+    },
+    "policy": {
+      "claim_timeout_ms": 180000,
+      "lease_ms": 900000,
+      "clock_skew_ms": 5000,
+      "max_attempts": 3
+    },
+    "review_rules": {
+      "full-stack": {
+        "required": true,
+        "reviewer": "owner",
+        "notify": "owner"
+      },
+      "alice-stage": {
+        "required": true,
+        "reviewer": "owner",
+        "notify": "owner"
+      },
+      "bob-stage": {
+        "required": true,
+        "reviewer": "owner",
+        "notify": "owner"
+      }
+    }
+  },
+  "actor_id": "Alice",
+  "signature": "nORwYZmoExCvrz37mP2NNtxAJ+EUcIeGfK5ULCehDWAbXOh3YSF34FSlejbX1chP5QreuVoR/WvP+RJ40G7pBw=="
+}
