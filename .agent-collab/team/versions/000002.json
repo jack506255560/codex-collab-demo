@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "version": 2,
+  "parent_hash": "877463a7586c3f4f7254975d291d296499023283363538a99f5f13e56613ef2c",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "team": {
+    "schema_version": 3,
+    "repo": "git@github.com:jack506255560/codex-collab-demo.git",
+    "reviewer": "Alice",
+    "default_route": "full-stack",
+    "agents": {
+      "Alice": {
+        "role": "admin",
+        "capabilities": [
+          "full-stack"
+        ],
+        "max_concurrent_tasks": 1,
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARSe4xDe4hpE0Yr72F87aREidcQ02S/0NBZNnCwaO214=\n-----END PUBLIC KEY-----\n",
+        "wecom_userid": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q"
+      }
+    },
+    "routes": {
+      "full-stack": [
+        "Alice"
+      ]
+    },
+    "policy": {
+      "claim_timeout_ms": 180000,
+      "lease_ms": 900000,
+      "clock_skew_ms": 5000,
+      "max_attempts": 3
+    },
+    "review_rules": {
+      "full-stack": {
+        "required": true,
+        "reviewer": "owner",
+        "notify": "owner"
+      }
+    }
+  },
+  "actor_id": "Alice",
+  "invitation_replacement": {
+    "old_invite_id": "fd9c13a4-89cf-4a3e-b3d0-aea4984a980d",
+    "new_invite_id": "affff42a-8b4e-4dec-9c56-c262a9316f0c"
+  },
+  "signature": "V2aoT3EDfoVqpCDLsvXDDvFyt9sv0OANUeo/+0+nf5d3VII084opNKq6BiyVEPj9Xue2TouRolYY6aW36FxCDg=="
+}
