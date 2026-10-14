@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "N-321AF1BB2DC503E8255B0ABC1127E615",
+  "seq": 1,
+  "event_id": "cdceb436-f0ac-45f9-81cc-0eeaec725b3f",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T02:29:29.982Z",
+  "idempotency_key": "inbox-message:Alice:1381e6196f4e2d05506309f57cf96ddbc6c1f51995ec36391faef313fe6dddc4",
+  "type": "received",
+  "spec_hash": "40d07682ffc0ae97f46d37c3623dca541fa655a91487eb88fe71044d2611908b",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "9EUCzz5QQHvx+YULsRv0zQwxpe/3YsNLQI1KaKMkhCFVevDVDcbt76EMZmvcZJgsErzDhtwKjNokVG2Uk6IDCQ=="
+}

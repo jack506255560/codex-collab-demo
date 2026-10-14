@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "N-321AF1BB2DC503E8255B0ABC1127E615",
+  "repo": "git@github.com:jack506255560/codex-collab-demo.git",
+  "target_agent": "Alice",
+  "chat_id": "wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA",
+  "sender_id": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q",
+  "content": "给仓库更新一下中文说明md",
+  "message_key": "inbox-message:Alice:1381e6196f4e2d05506309f57cf96ddbc6c1f51995ec36391faef313fe6dddc4",
+  "admin_dispatch": true
+}
