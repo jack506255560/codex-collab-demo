@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "repo": "git@github.com:jack506255560/codex-collab-demo.git",
+  "title": "更新日文仓库说明并交由 Bob 更新俄文说明",
+  "description": "按顺序完成两个文档阶段。alice-stage 由 Alice 根据分配来源提交中的 README 和实际脚本更新日文说明；若没有日文说明，则新增 README.ja.md，并添加有效的语言导航链接。完成后按团队审核与交接流程将提交交给 Bob。bob-stage 由 Bob 从 Alice 的交接提交继续更新俄文说明；若没有俄文说明，则新增 README.ru.md，补齐有效的语言导航链接。各阶段仅修改对应语言文档及必要的导航，不改变 shell 示例或测试行为，不宣称尚未验证的服务部署或任务执行状态。",
+  "base_branch": "main",
+  "acceptance": [
+    "日文说明使用自然准确的日语，涵盖项目用途、实际运行与测试方式、协作分支约束及当前示例的真实行为。",
+    "Alice 完成日文阶段后通过团队流程交接至 Bob，Bob 基于该交接提交更新俄文说明，内容与实际代码及日文说明一致。",
+    "新增或更新的文档导航和本地相对链接均指向存在的文件；不得提前添加尚未创建的俄文文件链接。",
+    "各阶段执行 sh test.sh 及文档差异和链接检查，仅提交本阶段文档，不含密钥、私有路径、绑定信息或聊天记录。"
+  ],
+  "workflow": [
+    "alice-stage",
+    "bob-stage"
+  ],
+  "execution_mode": "desktop_poll",
+  "source": {
+    "channel": "wecom",
+    "chat_id": "wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA"
+  }
+}

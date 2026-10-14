@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "request_id": "N-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 2,
+  "event_id": "91e20d0f-9385-4c1d-9497-9a5c9ca18116",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T15:15:02.746Z",
+  "idempotency_key": "inbox-resolve:N-ECB73031AC1DB5EEA5CA43E2B86E33E0:1",
+  "type": "task_created",
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "task_hash": "ddecfe97372928e69faa75158266fc0fea53a9ad6f03710bc8d049067b838aa7",
+  "response": "已明确分工：Alice 先更新日文仓库说明，再按协作流程交由 Bob 更新俄文说明；两阶段均以实际代码及现有说明为准，检查文档链接和项目测试，不修改业务代码。",
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "rhFrnzjpQ97nNUAsH/iuXMdl86vBZGOa3vUIhQa1oACXcxel0eCRY55zzmwlDvl/pNOZMPdGMQ5gkMg8ng32Dw=="
+}

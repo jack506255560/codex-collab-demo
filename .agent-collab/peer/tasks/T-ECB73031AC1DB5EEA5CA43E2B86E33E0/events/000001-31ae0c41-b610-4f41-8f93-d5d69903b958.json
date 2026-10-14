@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 1,
+  "event_id": "31ae0c41-b610-4f41-8f93-d5d69903b958",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T15:15:02.746Z",
+  "idempotency_key": "inbox-task:N-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "type": "created",
+  "spec_hash": "ddecfe97372928e69faa75158266fc0fea53a9ad6f03710bc8d049067b838aa7",
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "CtPMMI9TRipVNg8L0V3y4O980FAQnVVCfrj6XNHw71BopMlvdY86YEUvp5LWGJHkjdGjg76rpoMoK7P526SiCg=="
+}
