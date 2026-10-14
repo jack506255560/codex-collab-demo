@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "N-7556B95D6E5A91245E68E246A00253B6",
+  "repo": "git@github.com:jack506255560/codex-collab-demo.git",
+  "target_agent": "Alice",
+  "chat_id": "wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA",
+  "sender_id": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q",
+  "content": "T-321AF1BB2DC503E8255B0ABC1127E615 R-5 退回 | 再优化下",
+  "message_key": "inbox-message:Alice:d905ac4ce82db4bf09c3efc68dc97ff0d078075dad5c8117de38d5b5c0a891c8",
+  "admin_dispatch": true
+}
