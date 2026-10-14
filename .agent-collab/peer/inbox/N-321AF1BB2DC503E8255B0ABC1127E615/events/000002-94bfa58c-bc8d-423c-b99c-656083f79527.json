@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "request_id": "N-321AF1BB2DC503E8255B0ABC1127E615",
+  "seq": 2,
+  "event_id": "94bfa58c-bc8d-423c-b99c-656083f79527",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T02:31:15.404Z",
+  "idempotency_key": "inbox-resolve:N-321AF1BB2DC503E8255B0ABC1127E615:1",
+  "type": "task_created",
+  "task_id": "T-321AF1BB2DC503E8255B0ABC1127E615",
+  "task_hash": "8ffc76d7e08c2e77b2f0de4787316eed0d4c10d04b6d61410e444e16e2542cb2",
+  "response": "已创建任务 T-321AF1BB2DC503E8255B0ABC1127E615：更新仓库中文 README 说明。分工：full-stack；等待绑定对话认领。",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "FbVhjDBZ9awRYorMqPsHFSwyRjJPfRgnlqctm4aaBwowNhXb5ZqMtxCmPTVnO8QDO5rJYfgdjEo9JhEWMuLdCQ=="
+}

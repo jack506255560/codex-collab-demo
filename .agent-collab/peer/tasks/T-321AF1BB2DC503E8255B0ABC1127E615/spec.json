@@ -1,0 +1,22 @@
+{
+  "schema_version": 2,
+  "id": "T-321AF1BB2DC503E8255B0ABC1127E615",
+  "repo": "git@github.com:jack506255560/codex-collab-demo.git",
+  "title": "更新仓库中文 README 说明",
+  "description": "根据群内需求，更新 README.md 中文说明，介绍本演示仓库的用途、主要文件、示例运行与测试、Git 协作流程及当前演示范围；以仓库实际代码和项目协作配置为准，避免把演示任务误述为已实现或把需要本机配置的协作功能误述为开箱即用。仅修改说明文档，不改示例程序、测试或私有配置。",
+  "base_branch": "main",
+  "acceptance": [
+    "README.md 以中文清楚说明项目用途、主要文件结构和示例运行方法。",
+    "使用示例与当前 greet.sh、test.sh 保持一致，sh test.sh 执行通过。",
+    "准确说明 agent-collab 分支、隔离任务分支及已有桌面对话轮询协作机制，区分工具能力、本机接入要求与代码合并审核。",
+    "文档不含密钥、聊天记录、私有路径或对话绑定 ID；仅修改 README.md。"
+  ],
+  "workflow": [
+    "full-stack"
+  ],
+  "execution_mode": "desktop_poll",
+  "source": {
+    "channel": "wecom",
+    "chat_id": "wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA"
+  }
+}
