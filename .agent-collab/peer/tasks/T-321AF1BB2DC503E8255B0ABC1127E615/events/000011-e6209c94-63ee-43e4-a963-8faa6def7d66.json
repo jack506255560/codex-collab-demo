@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "task_id": "T-321AF1BB2DC503E8255B0ABC1127E615",
+  "seq": 11,
+  "event_id": "e6209c94-63ee-43e4-a963-8faa6def7d66",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T03:08:48.716Z",
+  "idempotency_key": "desktop-finish:T-321AF1BB2DC503E8255B0ABC1127E615:2",
+  "type": "review_requested",
+  "lease_id": "66302dbc-c6ae-40d8-b04a-427963b05176",
+  "epoch": 2,
+  "summary": "已根据审核意见完善 README.md：补充克隆与运行步骤、桌面对话接入前提、真人审核与退回的完整命令格式、任务分支与合并边界及常见问题。仅修改 README.md；sh test.sh、默认问候、姓名问候、文档链接检查和 git diff --check 均通过。提交 6326488c3ed54e9b6583b2403b279411e310a3bb。请指定真人审核本次修订。",
+  "refs": {
+    "branch": "codex/desktop-t-321af1bb2dc503e8255b0abc1127e615-Alice-2",
+    "commit": "6326488c3ed54e9b6583b2403b279411e310a3bb",
+    "tests": "sh test.sh: pass"
+  },
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "O2wzLspVAs0SxpCp6pXRB82nXqSqOpNHyk4/NxcvDn4I9wmlrQ8ZuVsAMyPE7zj9RqvfCVFFA5D46Zuqw/kuBA=="
+}
