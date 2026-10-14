@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "task_id": "T-321AF1BB2DC503E8255B0ABC1127E615",
+  "seq": 5,
+  "event_id": "244188fe-c270-4866-acd6-f5af6c6f119e",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T02:38:41.123Z",
+  "idempotency_key": "desktop-finish:T-321AF1BB2DC503E8255B0ABC1127E615:1",
+  "type": "review_requested",
+  "lease_id": "9222be82-b0c2-484b-be6b-94b2b9e91ad9",
+  "epoch": 1,
+  "summary": "已更新 README.md 中文说明，补充项目用途、文件说明、可复现运行示例、企业微信到桌面对话的轮询协作流程及分支与人工审核约定，并说明 --upper 尚未实现、v1 协议副本与当前工具版本的关系。仅修改 README.md；sh test.sh、默认问候、姓名问候和 git diff --check 均通过。提交 12efe8b55d12f4110f3d9a3c3b6f290271bc2e79。请指定真人审核文档内容，按项目流程处理合并。",
+  "refs": {
+    "branch": "codex/desktop-t-321af1bb2dc503e8255b0abc1127e615-Alice-1",
+    "commit": "12efe8b55d12f4110f3d9a3c3b6f290271bc2e79",
+    "tests": "sh test.sh: pass"
+  },
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "ALYAiUHrNSEyJ99XC3fD9YN1NGm0iva6fwkyvg1xBZCTSViXzKUmD7wgGNwzeUzz6ObUEHRDYfCuspaD7Lo9BA=="
+}
