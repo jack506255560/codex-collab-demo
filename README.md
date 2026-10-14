@@ -1,5 +1,7 @@
 # Codex Collab Demo
 
+简体中文 | [日本語](README.ja.md)
+
 独立于业务仓库的端到端协作测试项目。`main` 只有最小的 shell 示例与测试；`agent-collab` 分支保存演示任务和事件，不应合并回 `main`。
 
 ```sh
