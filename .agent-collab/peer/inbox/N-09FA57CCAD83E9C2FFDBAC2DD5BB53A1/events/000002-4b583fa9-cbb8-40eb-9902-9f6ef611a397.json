@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "N-09FA57CCAD83E9C2FFDBAC2DD5BB53A1",
+  "seq": 2,
+  "event_id": "4b583fa9-cbb8-40eb-9902-9f6ef611a397",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T02:27:00.074Z",
+  "idempotency_key": "inbox-resolve:N-09FA57CCAD83E9C2FFDBAC2DD5BB53A1:1",
+  "type": "answered",
+  "response": "你好！我是 Alice。你可以直接告诉我需要完成的开发任务，并补充期望结果或验收条件。",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "LmASfn1UWxbshXKplnlPal/+ZSSDgczwp3Qpt9ksb9iEJAd/YF2d/7WuHM8EwoWVkeRDRvbiPLSpmzOBU5yMAA=="
+}
