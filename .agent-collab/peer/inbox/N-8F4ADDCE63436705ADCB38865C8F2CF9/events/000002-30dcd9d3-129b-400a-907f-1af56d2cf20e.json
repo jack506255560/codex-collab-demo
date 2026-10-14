@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "N-8F4ADDCE63436705ADCB38865C8F2CF9",
+  "seq": 2,
+  "event_id": "30dcd9d3-129b-400a-907f-1af56d2cf20e",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T03:16:26.041Z",
+  "idempotency_key": "inbox-resolve:N-8F4ADDCE63436705ADCB38865C8F2CF9:1",
+  "type": "clarified",
+  "response": "任务 T-321AF1BB2DC503E8255B0ABC1127E615 已在 R-11 通过审核，提交 6326488c3ed54e9b6583b2403b279411e310a3bb 已推送。按协作流程，Alice 不直接合并 main；请真人负责人先确认“条代码”是否指需要继续补充代码或其他修改。若只是结束任务，请由负责人在群里 @Alice 发送：协作 完成 T-321AF1BB2DC503E8255B0ABC1127E615；随后再按项目流程人工将任务分支合并到 main。",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "2l73VnHuNnvdJJ0Df3lJ0TcL1OYt8iSBedc45YaTIa+SkVWDNw2/uLbCj7q2MWOiZOu6JvGkucX8TK8SH6qSCQ=="
+}
