@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "request_id": "f66c0908-07e0-4584-ac88-f4956f5acdfd",
+  "invite_id": "affff42a-8b4e-4dec-9c56-c262a9316f0c",
+  "agent_id": "Bob",
+  "public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAJiFZS0zpt7E86JzFrAKDgkT5t6SlpwsEvwK09gj1e7Q=\n-----END PUBLIC KEY-----\n",
+  "wecom_userid": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q",
+  "chat_id": "wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA",
+  "signature": "Mqn3skYO4RqyVQR/4zG3HN4pNBwCvqZ7BIDyDzZdcne+OkuujXeCEQYsWVaGmlgkPPoLQ8qySovB0fQCJylcBg==",
+  "invitation_signature": "NiBubuce0Z6hPtXJIEX/GjIFw9lO7n9RyZLNIwuixgBi0WR4BIR/jkMoh2Ck/wG0K1Oln4REYk4TOAfo30uyAQ=="
+}
