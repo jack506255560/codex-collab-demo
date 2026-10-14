@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "N-7556B95D6E5A91245E68E246A00253B6",
+  "seq": 2,
+  "event_id": "e5bcb01e-7036-41ee-8d87-f29fa56c5a68",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T02:45:04.688Z",
+  "idempotency_key": "inbox-resolve:N-7556B95D6E5A91245E68E246A00253B6:1",
+  "type": "answered",
+  "response": "收到优化意见。当前任务仍在等待审核；这条消息缺少“协作 审核”前缀，尚未正式退回。请由 Alice 的真人负责人在群里 @Alice 发送：\n协作 审核 T-321AF1BB2DC503E8255B0ABC1127E615 R-5 退回 | 再优化下\n正式退回后，我会从已提交的版本继续优化并重新提交审核。",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "8yszR1E5rab2eitePI06jOChkQfueOb079u1riFCrU1zemP5HY0b5pPkh/A+ZG8QXpTBiWn6ArYMLehBIHBfBA=="
+}
