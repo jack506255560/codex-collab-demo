@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "version": 3,
+  "parent_hash": "0c388f93b311acbc433a96e767a9a8355f454fbf30255f3adf51d13b3d00822c",
+  "team_hash": "d5f3936e7c8ac3dc44d57a389747fb2f6ecde9f525437559b53e153b20f856ee",
+  "team": {
+    "schema_version": 3,
+    "repo": "git@github.com:jack506255560/codex-collab-demo.git",
+    "reviewer": "Alice",
+    "default_route": "full-stack",
+    "agents": {
+      "Alice": {
+        "role": "admin",
+        "capabilities": [
+          "full-stack"
+        ],
+        "max_concurrent_tasks": 1,
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEARSe4xDe4hpE0Yr72F87aREidcQ02S/0NBZNnCwaO214=\n-----END PUBLIC KEY-----\n",
+        "wecom_userid": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q"
+      },
+      "Bob": {
+        "role": "member",
+        "capabilities": [
+          "full-stack"
+        ],
+        "max_concurrent_tasks": 1,
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAJiFZS0zpt7E86JzFrAKDgkT5t6SlpwsEvwK09gj1e7Q=\n-----END PUBLIC KEY-----\n",
+        "wecom_userid": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q"
+      }
+    },
+    "routes": {
+      "full-stack": [
+        "Bob",
+        "Alice"
+      ]
+    },
+    "policy": {
+      "claim_timeout_ms": 180000,
+      "lease_ms": 900000,
+      "clock_skew_ms": 5000,
+      "max_attempts": 3
+    },
+    "review_rules": {
+      "full-stack": {
+        "required": true,
+        "reviewer": "owner",
+        "notify": "owner"
+      }
+    }
+  },
+  "actor_id": "Alice",
+  "enrollment": {
+    "invite_id": "affff42a-8b4e-4dec-9c56-c262a9316f0c",
+    "request_id": "f66c0908-07e0-4584-ac88-f4956f5acdfd"
+  },
+  "signature": "5NciSMuVS53+jfezeOHqSNZm5xcSmTPqLfloD/momhpOsLv2JjKv+nhD/i1ZF5rwI+7lSPKRDfikO91nvCkGCg=="
+}
