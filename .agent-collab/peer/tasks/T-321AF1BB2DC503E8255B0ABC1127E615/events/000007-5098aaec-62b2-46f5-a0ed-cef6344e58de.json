@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "task_id": "T-321AF1BB2DC503E8255B0ABC1127E615",
+  "seq": 7,
+  "event_id": "5098aaec-62b2-46f5-a0ed-cef6344e58de",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T03:00:11.408Z",
+  "idempotency_key": "desktop-claim:Alice:T-321AF1BB2DC503E8255B0ABC1127E615:2",
+  "type": "claimed",
+  "epoch": 2,
+  "lease_id": "66302dbc-c6ae-40d8-b04a-427963b05176",
+  "expires_at": "2026-10-14T03:15:11.408Z",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "Lq0icGaHIQ3VkTk0sUv0knHljQZVqDsOi1Yb4ryI1pivP0d7pVmcWirxW4cpZ2VpJ1tFY1CUK6dUGaSvWUzNAA=="
+}
