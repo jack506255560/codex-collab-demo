@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 14,
+  "event_id": "360c0af9-2c2a-462b-8df4-8b8b02cd507d",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T15:41:51.114Z",
+  "idempotency_key": "desktop-finish:T-ECB73031AC1DB5EEA5CA43E2B86E33E0:1",
+  "type": "stage_review_requested",
+  "lease_id": "c125d10a-6b79-44c2-b23b-6fda4932e033",
+  "epoch": 1,
+  "summary": "日文阶段完成：新增日文指南并添加中文导航，未修改脚本或测试。sh test.sh、文档示例、本地链接及差异检查通过。提交 3e21b830d9c4b575bdbdf81e3d7dbc215bee11d2。请 owner 真人审核；批准后由 Bob 基于本提交继续俄文阶段。",
+  "refs": {
+    "branch": "codex/desktop-t-ecb73031ac1db5eea5ca43e2b86e33e0-Alice-1",
+    "commit": "3e21b830d9c4b575bdbdf81e3d7dbc215bee11d2",
+    "tests": "sh test.sh: pass"
+  },
+  "next_stage": 1,
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "0lA6fAWvMo8v9ApxS4UZiycb24hNWO+hzL9IP+A8OfT+Os22wWMUmV6iGeuRlCpll6MXMBxvB9rEMERlQdvhCg=="
+}
