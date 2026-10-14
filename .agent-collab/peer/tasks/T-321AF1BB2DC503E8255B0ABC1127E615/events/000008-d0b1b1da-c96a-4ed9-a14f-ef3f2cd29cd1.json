@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "task_id": "T-321AF1BB2DC503E8255B0ABC1127E615",
+  "seq": 8,
+  "event_id": "d0b1b1da-c96a-4ed9-a14f-ef3f2cd29cd1",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T03:02:00.086Z",
+  "idempotency_key": "c2303af2-7e23-4230-816a-71a80b7c50c3",
+  "type": "renewed",
+  "lease_id": "66302dbc-c6ae-40d8-b04a-427963b05176",
+  "epoch": 2,
+  "expires_at": "2026-10-14T03:17:00.086Z",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "1HC0HsF8Ve4YVnN9G0u0btrOf06KhMVIj+qOONKNm6Y9D0p6Lealz50EfOmvGTPZNKwytI3p/DTjCkmuBr/OBA=="
+}
