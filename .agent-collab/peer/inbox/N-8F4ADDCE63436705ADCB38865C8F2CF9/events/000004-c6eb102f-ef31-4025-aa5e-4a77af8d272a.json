@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "request_id": "N-8F4ADDCE63436705ADCB38865C8F2CF9",
+  "seq": 4,
+  "event_id": "c6eb102f-ef31-4025-aa5e-4a77af8d272a",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T03:54:17.597Z",
+  "idempotency_key": "inbox-resolve:N-8F4ADDCE63436705ADCB38865C8F2CF9:3",
+  "type": "answered",
+  "response": "代码已提交并推送：README 修订提交 6326488c3ed54e9b6583b2403b279411e310a3bb，审核状态为已通过，固定检查已通过。Alice 不直接合并 main；如需结束协作，请由负责人发送“协作 完成 T-321AF1BB2DC503E8255B0ABC1127E615”，再由负责人按项目流程将已审核分支合并到 main。",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "N7zXY1FRaEsXZe6uhUR3LfsILYjlFTwgtzAS++e6hXIQztjdy844CuZcjFVYA0qTo9/4GTxGkNynvZDwK6g/CQ=="
+}
