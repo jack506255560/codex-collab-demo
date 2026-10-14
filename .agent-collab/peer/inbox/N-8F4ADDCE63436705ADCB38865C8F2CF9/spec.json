@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "id": "N-8F4ADDCE63436705ADCB38865C8F2CF9",
+  "repo": "git@github.com:jack506255560/codex-collab-demo.git",
+  "target_agent": "Alice",
+  "chat_id": "wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA",
+  "sender_id": "woFyLUCAAARyLpTbzdGRCCG62Cqeiz9Q",
+  "content": "合并到main并且条代码吧",
+  "message_key": "inbox-message:Alice:9e44302047ce4d4c2403c46c22606225c85444b0432e62bfca3da19cde790a89",
+  "admin_dispatch": true
+}
