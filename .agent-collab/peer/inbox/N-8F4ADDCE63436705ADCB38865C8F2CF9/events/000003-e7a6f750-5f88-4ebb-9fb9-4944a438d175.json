@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "request_id": "N-8F4ADDCE63436705ADCB38865C8F2CF9",
+  "seq": 3,
+  "event_id": "e7a6f750-5f88-4ebb-9fb9-4944a438d175",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-14T03:52:20.541Z",
+  "idempotency_key": "inbox-message:Alice:2b64219cc19025bac4631ae462fac2baf218645c71d1b63ce304d41ed7ce8c54",
+  "type": "replied",
+  "content": "提交代码 N-8F4ADDCE63436705ADCB38865C8F2CF9",
+  "message_key": "inbox-message:Alice:2b64219cc19025bac4631ae462fac2baf218645c71d1b63ce304d41ed7ce8c54",
+  "team_hash": "8a4f9b3cf987ed71219a39c75a6f585efa448bc6818445ea6068c0fc1b5a8b59",
+  "signature": "qOsKa8RAJKyhTQW6tkvwyk3U//mIcPumG2Km8lSoQ30dtBBJm9AfRp6B/iD4hqHQAHvZ3WVEU4ylHasMM3iABw=="
+}
