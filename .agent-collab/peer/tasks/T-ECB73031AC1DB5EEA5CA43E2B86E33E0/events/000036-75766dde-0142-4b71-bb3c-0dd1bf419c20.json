@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 36,
+  "event_id": "75766dde-0142-4b71-bb3c-0dd1bf419c20",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-15T03:02:47.534Z",
+  "idempotency_key": "desktop-finish:T-ECB73031AC1DB5EEA5CA43E2B86E33E0:4",
+  "type": "review_requested",
+  "lease_id": "c6aa831e-b334-4fbb-be7a-af81a229ec52",
+  "epoch": 4,
+  "summary": "俄文阶段优化完成：重组快速开始、参数行为表、文件与分支职责及协作步骤，明确基本测试覆盖范围和协议副本同步方式，仅修改 README.ru.md。提交 8486ffbdaf3e4dda82fcc765ffeb54ec86110374。验证：sh test.sh 通过；7/7 文档命令输出断言（含换行）、26/26 本地 README 链接、差异及敏感内容检查通过；工作树干净。请由 owner 真人复审。",
+  "refs": {
+    "branch": "codex/desktop-t-ecb73031ac1db5eea5ca43e2b86e33e0-Alice-4",
+    "commit": "8486ffbdaf3e4dda82fcc765ffeb54ec86110374",
+    "tests": "sh test.sh: pass"
+  },
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "UB+NFbHibT+c0e+0IaoFVWd0zWEi+ZonLJ2A0+W94dCEQjvMghxDxuri4fPWIX9ycvGGXNcEIZqXCHh9QlgwDQ=="
+}
