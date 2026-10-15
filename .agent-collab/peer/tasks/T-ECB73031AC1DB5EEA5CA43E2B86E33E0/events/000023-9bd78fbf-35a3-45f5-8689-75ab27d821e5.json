@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 23,
+  "event_id": "9bd78fbf-35a3-45f5-8689-75ab27d821e5",
+  "actor_id": "Bob",
+  "occurred_at": "2026-10-15T01:59:52.998Z",
+  "idempotency_key": "wecom:wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA:3fd9d3481fe2c102c8b765d77d6dd032",
+  "type": "reviewed",
+  "summary": "太拉了，再优化下",
+  "decision": "changes_requested",
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "rIqL4jlWLp8g8PqwzcoEfXzQ/SG5rfBWdDNY+WTD/IDBS/mb1sG7HKWI7Z4BUylwivdaBUvdRMUn5bt3EKkDAg=="
+}
