@@ -1,6 +1,6 @@
 # Codex Collab Demo
 
-[简体中文](README.md) | 日本語
+[简体中文](README.md) | 日本語 | [Русский](README.ru.md)
 
 ## このリポジトリについて
 
