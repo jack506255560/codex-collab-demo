@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 15,
+  "event_id": "4d21e9cf-abb6-4139-8c07-4d0e5665a0c6",
+  "actor_id": "Alice",
+  "occurred_at": "2026-10-15T01:48:07.515Z",
+  "idempotency_key": "wecom:wrFyLUCAAA1cdXdP68VptI5V7fBNo-sA:63470ccf6232561c0c5d510a601489ab",
+  "type": "reviewed",
+  "decision": "approved",
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "itZf/1F+5agQvi7Cm2xb5cMKZjBg35Fbo1TrCjQb79VkZ55fghT2AEibN5Op+X8Nbiq1Xp+ig0o2VIxTAxmKAQ=="
+}
