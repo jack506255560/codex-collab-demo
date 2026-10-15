@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 22,
+  "event_id": "a13cfbf0-d0f4-4dc2-8bba-eff61c2b57e4",
+  "actor_id": "Bob",
+  "occurred_at": "2026-10-15T01:58:37.107Z",
+  "idempotency_key": "desktop-finish:T-ECB73031AC1DB5EEA5CA43E2B86E33E0:2",
+  "type": "review_requested",
+  "lease_id": "ca58c512-c0f4-411a-b945-4d7b3a1a81bf",
+  "epoch": 2,
+  "summary": "bob-stage：基于 Alice 已审核的交接提交新增俄文说明，仅补充中日文语言导航；说明与脚本和日文文档一致，未改脚本或测试。提交 e448c520ca018381602c26fd1a1deca207541eeb。验证：sh test.sh 通过，4/4 输出断言通过（含换行），22/22 本地 README 链接有效，暂存差异与范围检查通过；工作树干净。请按团队规则由真人审核，尚未批准或合并。",
+  "refs": {
+    "branch": "codex/desktop-t-ecb73031ac1db5eea5ca43e2b86e33e0-Bob-2",
+    "commit": "e448c520ca018381602c26fd1a1deca207541eeb",
+    "tests": "sh test.sh: pass"
+  },
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "sRixu8iT5xkuow1YVHCWZGgOLsncBDV4J13yxZ0yc/EkoQ9MFoISPMAgBrZqi3bSbTvAplNlBVWuG0VSL45WAw=="
+}
