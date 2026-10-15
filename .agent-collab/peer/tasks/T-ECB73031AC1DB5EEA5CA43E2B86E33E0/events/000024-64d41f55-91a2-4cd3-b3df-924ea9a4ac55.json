@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 24,
+  "event_id": "64d41f55-91a2-4cd3-b3df-924ea9a4ac55",
+  "actor_id": "Bob",
+  "occurred_at": "2026-10-15T02:00:08.739Z",
+  "idempotency_key": "desktop-claim:Bob:T-ECB73031AC1DB5EEA5CA43E2B86E33E0:3",
+  "type": "claimed",
+  "epoch": 3,
+  "lease_id": "7c89aa11-c9cd-42ae-8a46-433f8509cca0",
+  "expires_at": "2026-10-15T02:15:08.739Z",
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "41t9jV+Ag2k357XVYTD9OHhPYF8Seku+hsTxhKDj3kyEPAhPE1O9Vc19FQyZ1lt0pvPv+s+edUzVFi4TWt7LBA=="
+}
