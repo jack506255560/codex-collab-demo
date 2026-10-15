@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "task_id": "T-ECB73031AC1DB5EEA5CA43E2B86E33E0",
+  "seq": 30,
+  "event_id": "40325137-9666-493f-8f9c-e5b95ba774d0",
+  "actor_id": "Bob",
+  "occurred_at": "2026-10-15T02:38:17.224Z",
+  "idempotency_key": "fa9dae5e-438a-4b5d-ba9a-88bee1d9369f",
+  "type": "renewed",
+  "lease_id": "7c89aa11-c9cd-42ae-8a46-433f8509cca0",
+  "epoch": 3,
+  "expires_at": "2026-10-15T02:53:17.224Z",
+  "team_hash": "754ecb010093ac240a89824025566ae37590ffe081528926ffacc3751d41229e",
+  "signature": "0HzZRw2kW4ZMCCBEk7CSrG1VliljcNUPCvxmfm08Qy1qdEoZ0UI8GaKPblU8JGPRpsKZNlkoAcRGN6t0Coh2DA=="
+}
